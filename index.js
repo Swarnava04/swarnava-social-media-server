@@ -38,7 +38,7 @@ app.use("/user", userRouter);
 
 app.get("/", (req, res) => {
   console.log("The server is up and running");
-  res.status(200).send("The server is up and running");
+  res.status(200).send("The server is up and running"); //inside main branch
 });
 
 dbConnect();
